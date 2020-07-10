@@ -1,1 +1,16 @@
-{}
+{
+	"hosting": {
+		"amplifyhosting": {
+			"service": "amplifyhosting",
+			"type": "cicd"
+		}
+	},
+	"auth": {
+		"awsamplifymeetup8175e8a8": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
